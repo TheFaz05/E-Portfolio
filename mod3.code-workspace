@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"name": "Mod3",
+		"path": "../New-project-folder/my-first-repo/Mod3"
+	},
+	{
+		"name": "e-portfolio tutorial",
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "e-portfolio tutorial"
+  }
+}
