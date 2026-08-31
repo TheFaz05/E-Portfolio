@@ -13,7 +13,7 @@ h1,h2,h3,h4,h5,h6,span {
 }
 
 h1 {
-  font-size: 38px;
+  font-size: 30px;
 }
 
 p {
@@ -33,20 +33,33 @@ li {
   flex: 1;
 }
 
+.container {
+  padding: 150px 0;
+}
+
 .row {
   width: 100%;
   max-width: 800px;
   margin: 0 auto;
 }
 
-.text--purple {
+.text--blue {
   color: #36a1d3;
 }
+
+section:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.section__title {
+  margin-bottom: 100px;
+}
+
 
 /* NAVIGATION BAR */
 
 nav {
-  height: 100px;
+  height: 110px;
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
@@ -75,7 +88,7 @@ nav {
 }
 
 .nav__link--anchor-primary:hover {
-  background-color: #5d3eff;
+  background-color: #3eff82;
 }
 
 .personal__logo {
@@ -145,9 +158,30 @@ nav {
   flex: 1;
   display: flex;
   align-items: center;
-  margin-top: 100px
+  margin-top: 120px;
 }
 
-.about-me__img {;
-  height: auto;
+.about-me__img {
+  width: 100%;
+}
+
+/* Tech Stack */
+
+.language__img {
+  width: 100%;
+  max-width: 100px;
+}
+
+.language {
+  width: 25%;
+}
+.language__img--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.language__list {
+display: flex;
+width: 100%;
 }
